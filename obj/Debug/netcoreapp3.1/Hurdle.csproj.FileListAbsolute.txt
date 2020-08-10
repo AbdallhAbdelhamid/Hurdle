@@ -1,0 +1,13 @@
+E:\CSharpProjects\Hurdle\bin\Debug\netcoreapp3.1\Hurdle.exe
+E:\CSharpProjects\Hurdle\bin\Debug\netcoreapp3.1\Hurdle.deps.json
+E:\CSharpProjects\Hurdle\bin\Debug\netcoreapp3.1\Hurdle.runtimeconfig.json
+E:\CSharpProjects\Hurdle\bin\Debug\netcoreapp3.1\Hurdle.runtimeconfig.dev.json
+E:\CSharpProjects\Hurdle\bin\Debug\netcoreapp3.1\Hurdle.dll
+E:\CSharpProjects\Hurdle\bin\Debug\netcoreapp3.1\Hurdle.pdb
+E:\CSharpProjects\Hurdle\obj\Debug\netcoreapp3.1\Hurdle.csprojAssemblyReference.cache
+E:\CSharpProjects\Hurdle\obj\Debug\netcoreapp3.1\Hurdle.AssemblyInfoInputs.cache
+E:\CSharpProjects\Hurdle\obj\Debug\netcoreapp3.1\Hurdle.AssemblyInfo.cs
+E:\CSharpProjects\Hurdle\obj\Debug\netcoreapp3.1\Hurdle.csproj.CoreCompileInputs.cache
+E:\CSharpProjects\Hurdle\obj\Debug\netcoreapp3.1\Hurdle.dll
+E:\CSharpProjects\Hurdle\obj\Debug\netcoreapp3.1\Hurdle.pdb
+E:\CSharpProjects\Hurdle\obj\Debug\netcoreapp3.1\Hurdle.genruntimeconfig.cache
