@@ -9,10 +9,16 @@ namespace Hurdle
 
         static Grid grid = new Grid();
 
-        static Obstacle[] obstacles = new Obstacle[3];
+        static Obstacle[] obstacles = new Obstacle[4];
         static Runner runner = new Runner(5, 20);
         static int GameSpeed = 500;
         static bool Lost = false;
+
+        const int OBSTACLE_COL_START_POSITION = 15;
+        const int OBSTACLE_ROW_START_POSITION = 5;
+
+        const int OBSTACLE_MIN_COL_VALUE = 6;
+        const int OBSTACLE_MAX_COL_VALUE = 30;
         static void Main(string[] args)
         {
             init();
@@ -53,19 +59,16 @@ namespace Hurdle
 
         static void init()
         {
-            runner.Draw(grid);                          // draws runner
-
-         Random random = new Random();
-            // init random obstacle locations //
-            int y_pos = 15;
+            /*** init random obstacle locations ***/
+            Random random = new Random();
+            int y_pos = OBSTACLE_COL_START_POSITION;
             for (int i = 0; i < obstacles.Length; i++)
             {
-                y_pos = y_pos + random.Next(6, 30);
-                obstacles[i] = new Obstacle(5, y_pos);
+                y_pos = y_pos + random.Next(OBSTACLE_MIN_COL_VALUE, OBSTACLE_MAX_COL_VALUE);
+                obstacles[i] = new Obstacle(OBSTACLE_ROW_START_POSITION, y_pos);
                 grid.MapPos(obstacles[i].pos, obstacles[i].ObstacleShape);                      // cteate Obstacle
             }
         }
-
 
         static void Logic()
         {
@@ -78,6 +81,7 @@ namespace Hurdle
 
         static void Draw()
         {
+            runner.Draw(grid);             // draws runner
             grid.Draw();
         }
 

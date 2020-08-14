@@ -29,8 +29,7 @@ namespace Hurdle
             if (pos.yPos == 0)        // 0 equals end of line on the left
             {
                 grid.MapPos(pos, grid.GridShape);
-
-                pos.yPos = random.Next(40,Grid.width);
+                pos.yPos = random.Next(40,Grid.width-40);
                 GameSpeed -= 50;
             }
         }
