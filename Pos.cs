@@ -2,23 +2,23 @@ namespace Hurdle
 {
     internal class Pos
     {
-        internal Pos()           // default values
+        internal Pos()           // default values // constructer
         {
             xPos = 0;
             yPos = 0;
         }
-        internal Pos(int xpos , int ypos)
+        internal Pos(int xpos , int ypos) // parametrized constructers
         {
             xPos = xpos;
             yPos= ypos;
         }
         
-        public int xPos
+        internal int xPos
         {
            get;
            set;
         }
-        public int yPos
+        internal int yPos
         {
             get;
             set;
